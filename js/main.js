@@ -70,7 +70,7 @@ $(document).ready(function () {
 					if (element.pictureName === "") {
 						$(".jqvmap-label").append("<img src='img/img_avatar.png'>");
 					} else {
-						$(".jqvmap-label").append("<img src='img/ambassadors/" + element.pictureName + "'>");
+						$(".jqvmap-label").append("<img src='" + element.pictureName + "'>");
 
 					}
 					return;
