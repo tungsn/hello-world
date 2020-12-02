@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Hof University Student Ambassadors around the world</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8"/>
+	<link href="css/lib/jqvmap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="vmap" style="width: 800px; height: 600px;"></div>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2 id="modalTitle"></h2>
+			</div>
+			<div class="modal-body">
+				<div class="card">
+					<div class="ambassadorInfo">
+						<div id="imageContainer">
+						<img id="picture" src="img/img_avatar.png" alt="Avatar">
+					</div>
+						<table class="infoTable">
+							<tr>
+								<td>Hometown</td>
+								<td id="homeCity"></td>
+							</tr>
+							<tr>
+								<td>Study Program</td>
+								<td id="studyCourse"></td>
+							</tr>
+							<tr>
+								<td>Start of Studies</td>
+								<td id="studyStart"></td>
+							</tr>
+							<tr>
+								<td>Graduation</td>
+								<td id="studyEnd"></td>
+							</tr>
+							<tr>
+								<td>Languages</td>
+								<td id="languages"></td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td id="email"></td>
+							</tr>
+							<tr>
+								<td>Social Media</td>
+								<td id="socialMedia"></td>
+							</tr>
+						</table>
+					</div>
+					<div>
+						<h3 id="ambassadorName"></h3>
+						<p id="ambassadorTextimonial"></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- JS -->
+	<script src="js/lib/jquery-3.4.1.js"></script>
+	<script src="js/lib/jquery.vmap.js"></script>
+	<script src="js/lib/jquery.vmap.world.js"></script>
+	<script src="js/ambassador.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
